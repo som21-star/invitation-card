@@ -13,20 +13,8 @@ import flowerDecoration from '@assets/image_1769005060393.png';
 import flowerGarland2 from '@assets/wmremove-transformed_(3)_1769009270585.png';
 import peacockArch from '@assets/ChatGPT_Image_Jan_21,_2026,_08_23_52_PM_1769007559081.png';
 import bengaliCouple2 from '@assets/couple-costume-indian-bengali-wedding-600nw-2094524062-removeb_1769008048794.png';
-import swastikFlowerGarland from '@assets/Screenshot_2026-01-21_at_9.02.05_PM_1769009530019.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
-
-const SwastikSymbol = ({ className = "" }: { className?: string }) => (
-    <svg viewBox="0 0 100 100" className={className} fill="currentColor">
-        <rect x="45" y="10" width="10" height="80" />
-        <rect x="10" y="45" width="80" height="10" />
-        <rect x="45" y="10" width="25" height="10" />
-        <rect x="30" y="80" width="25" height="10" />
-        <rect x="10" y="30" width="10" height="25" />
-        <rect x="80" y="45" width="10" height="25" />
-    </svg>
-);
 
 const WeddingCardAutoScroll = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -83,10 +71,8 @@ const WeddingCardAutoScroll = () => {
                     <div className="absolute right-4 top-10 w-14 h-auto animate-float z-30" style={{ animationDelay: '0.5s' }}>
                         <img src={kalashDecor} alt="" className="w-full h-auto -scale-x-100" />
                     </div>
-                    <div className="w-full -mt-2 mb-4 animate-sway flex items-center justify-center">
-                        <SwastikSymbol className="w-8 h-8 text-[#FFD700] mr-2" />
-                        <img src={marigoldGarland} alt="Marigold garland" className="w-3/4 h-auto" />
-                        <SwastikSymbol className="w-8 h-8 text-[#FFD700] ml-2" />
+                    <div className="w-full -mt-2 mb-4 animate-sway">
+                        <img src={marigoldGarland} alt="Marigold garland" className="w-full h-auto" />
                     </div>
 
                     <div className="text-center mb-4">
@@ -157,15 +143,12 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 3: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={swastikFlowerGarland} alt="" className="w-full h-auto" />
-                    </div>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
                             src={gayeHoludDecor} 
                             alt="Gaye Holud Decor" 
                             className="w-32 h-auto mx-auto animate-float"
-                            style={{ mixBlendMode: 'screen' }}
+                            style={{ mixBlendMode: 'lighten' }}
                         />
                     </div>
 
