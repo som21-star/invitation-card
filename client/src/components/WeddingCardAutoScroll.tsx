@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
+import bengaliCouple from '@/assets/bengali-couple.png';
 import weddingCoupleUploaded from '@/assets/wedding-couple-uploaded.png';
 import marigoldGarland from '@/assets/marigold-garland.png';
 import goldenCorner from '@/assets/golden-corner.png';
@@ -133,8 +134,16 @@ const WeddingCardAutoScroll = () => {
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="flex justify-center items-center gap-4 mb-4">
                         <Topor className="w-12 h-20 animate-float" />
-                        <img src={bengaliElements1} alt="" className="w-16 h-24 opacity-80 animate-float" style={{ animationDelay: '0.3s' }} />
                         <Mukut className="w-16 h-12 animate-float" style={{ animationDelay: '0.5s' }} />
+                    </div>
+
+                    <div className="relative mb-6">
+                        <div className="absolute inset-0 bg-[#FFD700]/20 rounded-full blur-2xl" />
+                        <img
+                            src={bengaliCouple}
+                            alt="Bengali Wedding Couple"
+                            className="relative w-40 h-auto rounded-lg shadow-2xl border-4 border-[#FFD700]/50 animate-float"
+                        />
                     </div>
 
                     <div className="text-center w-full max-w-xs mb-3">
