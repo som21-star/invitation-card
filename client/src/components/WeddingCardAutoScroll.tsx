@@ -173,7 +173,8 @@ const WeddingCardAutoScroll = () => {
                         <img 
                             src={gayeHoludDecor} 
                             alt="Gaye Holud Decor" 
-                            className="w-40 h-auto mx-auto rounded-lg shadow-xl border-2 border-[#FFD700]/40 animate-float"
+                            className="w-44 h-auto mx-auto animate-float"
+                            style={{ mixBlendMode: 'screen' }}
                         />
                     </div>
 
