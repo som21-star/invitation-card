@@ -169,12 +169,12 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 4: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="mb-4">
+                    <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
                             src={gayeHoludDecor} 
                             alt="Gaye Holud Decor" 
-                            className="w-44 h-auto mx-auto animate-float"
-                            style={{ mixBlendMode: 'screen' }}
+                            className="w-32 h-auto mx-auto animate-float"
+                            style={{ mixBlendMode: 'lighten' }}
                         />
                     </div>
 
