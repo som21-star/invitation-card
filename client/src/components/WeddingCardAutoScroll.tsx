@@ -7,6 +7,7 @@ import bengaliElements1 from '@/assets/bengali-elements-1.png';
 import bengaliElements2 from '@/assets/bengali-elements-2.png';
 import mangalKalash from '@/assets/mangal-kalash.png';
 import goldenButterfly from '@/assets/golden-butterfly.png';
+import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
 
@@ -168,10 +169,12 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 4: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="flex justify-center gap-6 mb-6">
-                        <BetelLeaf className="w-10 h-14 animate-sway" />
-                        <BetelLeaf className="w-10 h-14 animate-sway" style={{ animationDelay: '0.3s' }} />
-                        <BetelLeaf className="w-10 h-14 animate-sway" style={{ animationDelay: '0.6s' }} />
+                    <div className="mb-4">
+                        <img 
+                            src={gayeHoludDecor} 
+                            alt="Gaye Holud Decor" 
+                            className="w-40 h-auto mx-auto rounded-lg shadow-xl border-2 border-[#FFD700]/40 animate-float"
+                        />
                     </div>
 
                     <div className="bg-black/20 backdrop-blur-sm rounded-xl px-8 py-6 border-2 border-[#FFA500]/50 text-center max-w-sm">
