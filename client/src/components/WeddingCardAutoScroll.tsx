@@ -10,6 +10,8 @@ import goldenButterfly from '@/assets/golden-butterfly.png';
 import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
 import kalashDecor from '@assets/image_1768969321417.png';
 import flowerDecoration from '@assets/image_1769005060393.png';
+import peacockArch from '@assets/ChatGPT_Image_Jan_21,_2026,_08_23_52_PM_1769007559081.png';
+import bengaliCouple2 from '@assets/couple-costume-indian-bengali-wedding-600nw-2094524062-removeb_1769008048794.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
 
@@ -178,46 +180,35 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 4: Bibaho (Wedding) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
-                    </div>
-                    <div className="flex justify-center mb-2 max-w-sm w-full">
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-start relative overflow-hidden" style={{ width: `${100 / totalSlides}%` }}>
+                    <img 
+                        src={peacockArch} 
+                        alt="Peacock Arch" 
+                        className="absolute inset-0 w-full h-full object-cover z-0"
+                    />
+                    
+                    <div className="relative z-10 flex flex-col items-center justify-center h-full pt-28">
                         <img 
-                            src={bengaliElements1} 
-                            alt="" 
-                            className="w-full h-24 object-contain animate-shimmer" 
-                            style={{ mixBlendMode: 'lighten' }}
+                            src={bengaliCouple2} 
+                            alt="Bengali Wedding Couple" 
+                            className="w-32 h-auto mb-4 animate-float"
                         />
-                    </div>
-
-                    <div className="bg-black/20 backdrop-blur-sm rounded-xl px-8 py-6 border-2 border-[#FFD700]/50 text-center max-w-sm w-full">
-                        <h3 className="font-bengali-display text-[#FFD700] text-2xl font-bold mb-4">
-                            শুভ বিবাহ
-                        </h3>
-
-                        <div className="space-y-2">
-                            <p className="font-bengali text-[#FFD700] text-lg font-semibold">
+                        
+                        <div className="text-center">
+                            <h3 className="font-bengali-display text-[#FFD700] text-3xl font-bold mb-3 drop-shadow-lg">
+                                শুভ বিবাহ
+                            </h3>
+                            
+                            <p className="font-bengali text-[#FFD700] text-xl font-semibold mb-2 drop-shadow-lg">
                                 ২৩শে মাঘ, ১৪৩২ সাল
                             </p>
-                            <p className="font-bengali text-[#FFEAA7] text-base">
+                            <p className="font-bengali text-[#FFEAA7] text-lg mb-2 drop-shadow-lg">
                                 ৬ই ফেব্রুয়ারি ২০২৬
                             </p>
-                            <p className="font-bengali text-[#FFD700] text-lg font-bold mt-3">
+                            <p className="font-bengali text-[#FFD700] text-xl font-bold drop-shadow-lg">
                                 সন্ধ্যা ৭ ঘটিকায়
                             </p>
                         </div>
-                    </div>
-
-                    <div className="text-center mt-4">
-                        <p className="font-bengali text-[#FFEAA7] text-sm mb-1">বিবাহ বাসর</p>
-                        <p className="font-bengali text-[#FFD700] text-base font-semibold">নিজ বাসভবন</p>
-                    </div>
-
-                    <div className="flex justify-center gap-6 mt-4">
-                        <Topor className="w-10 h-16 animate-float" />
-                        <img src={goldenButterfly} alt="" className="w-12 h-12 opacity-80 animate-float" style={{ animationDelay: '0.3s' }} />
-                        <Topor className="w-10 h-16 animate-float" style={{ animationDelay: '0.5s', transform: 'scaleX(-1)' }} />
                     </div>
                 </div>
 
