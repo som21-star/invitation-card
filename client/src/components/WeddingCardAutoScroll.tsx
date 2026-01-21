@@ -101,7 +101,7 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 2: Bride & Groom (পাত্রী ও পাত্র) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
                         <img src={flowerDecoration} alt="" className="w-full h-auto" />
                     </div>
                     <div className="flex justify-center items-center gap-4 mb-4">
@@ -140,7 +140,7 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 3: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
                         <img src={flowerDecoration} alt="" className="w-full h-auto" />
                     </div>
                     <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
@@ -179,7 +179,7 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 4: Bibaho (Wedding) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
                         <img src={flowerDecoration} alt="" className="w-full h-auto" />
                     </div>
                     <div className="flex justify-center mb-2 max-w-sm w-full">
@@ -223,7 +223,7 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 5: English Invitation */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
                         <img src={flowerDecoration} alt="" className="w-full h-auto" />
                     </div>
                     <div className="bg-black/20 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/40 text-center max-w-sm">
