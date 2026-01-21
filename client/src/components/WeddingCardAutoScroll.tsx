@@ -211,11 +211,16 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 5: Bibaho (Wedding) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="flex justify-center mb-4">
-                        <img src={bengaliElements1} alt="" className="w-24 h-32 opacity-80 animate-shimmer" />
+                    <div className="flex justify-center mb-2 max-w-sm w-full">
+                        <img 
+                            src={bengaliElements1} 
+                            alt="" 
+                            className="w-full h-24 object-contain animate-shimmer" 
+                            style={{ mixBlendMode: 'lighten' }}
+                        />
                     </div>
 
-                    <div className="bg-black/20 backdrop-blur-sm rounded-xl px-8 py-6 border-2 border-[#FFD700]/50 text-center max-w-sm">
+                    <div className="bg-black/20 backdrop-blur-sm rounded-xl px-8 py-6 border-2 border-[#FFD700]/50 text-center max-w-sm w-full">
                         <h3 className="font-bengali-display text-[#FFD700] text-2xl font-bold mb-4">
                             শুভ বিবাহ
                         </h3>
