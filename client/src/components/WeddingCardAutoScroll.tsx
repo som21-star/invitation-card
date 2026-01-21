@@ -252,10 +252,10 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 6: Venue & Closing */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute left-4 bottom-20 w-14 h-auto animate-float z-30">
+                    <div className="absolute left-4 bottom-28 w-14 h-auto animate-float z-30">
                         <img src={kalashDecor} alt="" className="w-full h-auto" />
                     </div>
-                    <div className="absolute right-4 bottom-20 w-14 h-auto animate-float z-30" style={{ animationDelay: '0.5s' }}>
+                    <div className="absolute right-4 bottom-28 w-14 h-auto animate-float z-30" style={{ animationDelay: '0.5s' }}>
                         <img src={kalashDecor} alt="" className="w-full h-auto -scale-x-100" />
                     </div>
                     <div className="relative bg-black/30 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/50 text-center max-w-sm mb-6">
