@@ -8,6 +8,7 @@ import bengaliElements2 from '@/assets/bengali-elements-2.png';
 import mangalKalash from '@/assets/mangal-kalash.png';
 import goldenButterfly from '@/assets/golden-butterfly.png';
 import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
+import kalashDecor from '@assets/image_1768969321417.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
 
@@ -60,8 +61,16 @@ const WeddingCardAutoScroll = () => {
             >
                 {/* Section 1: Welcome */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="w-full -mt-2 mb-4 animate-sway">
-                        <img src={marigoldGarland} alt="Marigold garland" className="w-full h-auto" />
+                    <div className="w-full relative -mt-2 mb-4">
+                        <div className="absolute -left-2 -top-8 w-16 h-auto animate-float z-10">
+                            <img src={kalashDecor} alt="" className="w-full h-auto" />
+                        </div>
+                        <div className="absolute -right-2 -top-8 w-16 h-auto animate-float z-10" style={{ animationDelay: '0.5s' }}>
+                            <img src={kalashDecor} alt="" className="w-full h-auto -scale-x-100" />
+                        </div>
+                        <div className="animate-sway">
+                            <img src={marigoldGarland} alt="Marigold garland" className="w-full h-auto" />
+                        </div>
                     </div>
 
                     <div className="text-center mb-4">
