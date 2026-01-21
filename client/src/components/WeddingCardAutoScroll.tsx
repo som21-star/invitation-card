@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import bengaliCouple from '@/assets/bengali-couple.png';
-import weddingCoupleUploaded from '@assets/Frontpage3_1768970322780.png';
+import weddingCoupleUploaded from '@assets/Frontpage3-removebg-preview_1768970427622.png';
 import marigoldGarland from '@/assets/marigold-garland.png';
 import goldenCorner from '@/assets/golden-corner.png';
 import bengaliElements1 from '@/assets/bengali-elements-1.png';
