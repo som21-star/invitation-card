@@ -180,36 +180,36 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 4: Bibaho (Wedding) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-between px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-8 left-0 right-0 w-full z-5 flex justify-center">
-                        <img src={peacockArch} alt="Peacock Arch" className="w-full max-w-md h-auto" style={{ maxHeight: '45%' }} />
-                    </div>
-                    
-                    <div className="relative z-10 flex flex-col items-center justify-center flex-1 mt-40">
-                        <img 
-                            src={bengaliCouple2} 
-                            alt="Bengali Wedding Couple" 
-                            className="w-24 h-auto mb-2 animate-float"
-                        />
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-4 py-6 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="relative w-full flex flex-col items-center">
+                        <img src={peacockArch} alt="Peacock Arch" className="w-full h-auto" />
                         
-                        <div className="text-center">
-                            <h3 className="font-bengali-display text-[#FFD700] text-3xl font-bold mb-2 drop-shadow-lg">
-                                শুভ বিবাহ
-                            </h3>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center pt-16">
+                            <img 
+                                src={bengaliCouple2} 
+                                alt="Bengali Wedding Couple" 
+                                className="w-20 h-auto mb-1 animate-float"
+                            />
                             
-                            <p className="font-bengali text-[#FFD700] text-lg font-semibold mb-1 drop-shadow-lg">
-                                ২৩শে মাঘ, ১৪৩২ সাল
-                            </p>
-                            <p className="font-bengali text-[#FFEAA7] text-base mb-1 drop-shadow-lg">
-                                ৬ই ফেব্রুয়ারি ২০২৬
-                            </p>
-                            <p className="font-bengali text-[#FFD700] text-lg font-bold drop-shadow-lg">
-                                সন্ধ্যা ৭ ঘটিকায়
-                            </p>
+                            <div className="text-center">
+                                <h3 className="font-bengali-display text-[#FFD700] text-2xl font-bold mb-1 drop-shadow-lg">
+                                    শুভ বিবাহ
+                                </h3>
+                                
+                                <p className="font-bengali text-[#FFD700] text-base font-semibold drop-shadow-lg">
+                                    ২৩শে মাঘ, ১৪৩২ সাল
+                                </p>
+                                <p className="font-bengali text-[#FFEAA7] text-sm drop-shadow-lg">
+                                    ৬ই ফেব্রুয়ারি ২০২৬
+                                </p>
+                                <p className="font-bengali text-[#FFD700] text-base font-bold drop-shadow-lg">
+                                    সন্ধ্যা ৭ ঘটিকায়
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="relative z-10 flex flex-col items-center mb-4">
+                    <div className="relative z-10 flex flex-col items-center mt-4">
                         <div className="text-center mb-3">
                             <p className="font-bengali text-[#FFEAA7] text-sm mb-1">বিবাহ বাসর</p>
                             <p className="font-bengali text-[#FFD700] text-base font-semibold">নিজ বাসভবন</p>
