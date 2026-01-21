@@ -10,6 +10,7 @@ import goldenButterfly from '@/assets/golden-butterfly.png';
 import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
 import kalashDecor from '@assets/image_1768969321417.png';
 import flowerDecoration from '@assets/image_1769005060393.png';
+import garlandDecor from '@assets/wmremove-transformed__1_-removebg-preview_1769005792424.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
 
@@ -141,7 +142,7 @@ const WeddingCardAutoScroll = () => {
                 {/* Section 3: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                        <img src={garlandDecor} alt="" className="w-full h-auto" />
                     </div>
                     <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
@@ -180,7 +181,7 @@ const WeddingCardAutoScroll = () => {
                 {/* Section 4: Bibaho (Wedding) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                        <img src={garlandDecor} alt="" className="w-full h-auto" />
                     </div>
                     <div className="flex justify-center mb-2 max-w-sm w-full">
                         <img 
