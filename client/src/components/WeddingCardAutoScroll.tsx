@@ -10,6 +10,7 @@ import goldenButterfly from '@/assets/golden-butterfly.png';
 import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
 import kalashDecor from '@assets/image_1768969321417.png';
 import flowerDecoration from '@assets/image_1769005060393.png';
+import flowerGarland2 from '@assets/wmremove-transformed_(3)_1769009270585.png';
 import peacockArch from '@assets/ChatGPT_Image_Jan_21,_2026,_08_23_52_PM_1769007559081.png';
 import bengaliCouple2 from '@assets/couple-costume-indian-bengali-wedding-600nw-2094524062-removeb_1769008048794.png';
 import OrnamentalDivider from './OrnamentalDivider';
@@ -104,7 +105,7 @@ const WeddingCardAutoScroll = () => {
                 {/* Section 2: Bride & Groom (পাত্রী ও পাত্র) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                        <img src={flowerGarland2} alt="" className="w-full h-auto" />
                     </div>
                     <div className="flex justify-center items-center gap-4 mb-4">
                         <Topor className="w-12 h-20 animate-float" />
@@ -142,9 +143,6 @@ const WeddingCardAutoScroll = () => {
 
                 {/* Section 3: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
-                    </div>
                     <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
                             src={gayeHoludDecor} 
@@ -226,7 +224,7 @@ const WeddingCardAutoScroll = () => {
                 {/* Section 5: English Invitation */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="absolute -top-4 left-0 right-0 w-full z-0">
-                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                        <img src={flowerGarland2} alt="" className="w-full h-auto" />
                     </div>
                     <div className="bg-black/20 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/40 text-center max-w-sm">
                         <p className="text-[#FFEAA7] text-sm mb-4 italic">
