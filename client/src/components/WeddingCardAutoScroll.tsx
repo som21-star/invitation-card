@@ -9,6 +9,7 @@ import mangalKalash from '@/assets/mangal-kalash.png';
 import goldenButterfly from '@/assets/golden-butterfly.png';
 import gayeHoludDecor from '@assets/wmremove-transformed_(2)_1768968359572.png';
 import kalashDecor from '@assets/image_1768969321417.png';
+import flowerDecoration from '@assets/image_1769005060393.png';
 import OrnamentalDivider from './OrnamentalDivider';
 import { BetelLeaf, Mukut, Topor, Dhunuchi } from './TraditionalElements';
 
@@ -99,7 +100,10 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 2: Bride & Groom (পাত্রী ও পাত্র) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                    </div>
                     <div className="flex justify-center items-center gap-4 mb-4">
                         <Topor className="w-12 h-20 animate-float" />
                         <Mukut className="w-16 h-12 animate-float" style={{ animationDelay: '0.5s' }} />
@@ -135,7 +139,10 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 3: Gaye Holud */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                    </div>
                     <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
                             src={gayeHoludDecor} 
@@ -171,7 +178,10 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 4: Bibaho (Wedding) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                    </div>
                     <div className="flex justify-center mb-2 max-w-sm w-full">
                         <img 
                             src={bengaliElements1} 
@@ -212,7 +222,10 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 5: English Invitation */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-0 left-0 right-0 w-full z-20">
+                        <img src={flowerDecoration} alt="" className="w-full h-auto" />
+                    </div>
                     <div className="bg-black/20 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/40 text-center max-w-sm">
                         <p className="text-[#FFEAA7] text-sm mb-4 italic">
                             Shree Shree Prajapataye Namah
