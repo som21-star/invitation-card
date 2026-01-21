@@ -98,44 +98,7 @@ const WeddingCardAutoScroll = () => {
                     </div>
                 </div>
 
-                {/* Section 2: English Invitation */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="bg-black/20 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/40 text-center max-w-sm">
-                        <p className="text-[#FFEAA7] text-sm mb-4 italic">
-                            Shree Shree Prajapataye Namah
-                        </p>
-
-                        <p className="text-[#FFEAA7] text-sm leading-relaxed mb-4">
-                            Mr. Sudarson Pathak and Mrs. Subarna Pathak cordially request
-                            the pleasure of your gracious presence and blessing on the auspicious occasion of the wedding of their beloved daughter,
-                        </p>
-
-                        <div className="my-4">
-                            <h2 className="text-[#FFD700] text-2xl font-bold mb-2">Shatabdi</h2>
-                            <p className="text-[#FFD700] text-lg mb-2">weds</p>
-                            <h2 className="text-[#FFD700] text-2xl font-bold">Sourav</h2>
-                        </div>
-
-                        <div className="flex justify-center gap-6 my-4">
-                            <img src={goldenButterfly} alt="" className="w-10 h-10 opacity-70" />
-                            <img src={goldenButterfly} alt="" className="w-10 h-10 opacity-70" />
-                        </div>
-
-                        <p className="text-[#FFD700] text-sm font-semibold mb-3">
-                            Date of the Event: Friday, 06th February, 2026
-                        </p>
-
-                        <p className="text-[#FFEAA7] text-xs leading-relaxed mb-3">
-                            Address: Kanksa Ganguly Para, Panagarh Bazar, Paschim Bardhaman, 713148
-                        </p>
-
-                        <p className="text-[#FFEAA7]/80 text-xs italic">
-                            Jaganath Pathak (Dada)
-                        </p>
-                    </div>
-                </div>
-
-                {/* Section 3: Bride & Groom */}
+                {/* Section 2: Bride & Groom (পাত্রী ও পাত্র) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="flex justify-center items-center gap-4 mb-4">
                         <Topor className="w-12 h-20 animate-float" />
@@ -171,7 +134,7 @@ const WeddingCardAutoScroll = () => {
                     </div>
                 </div>
 
-                {/* Section 4: Gaye Holud */}
+                {/* Section 3: Gaye Holud */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="mb-4 bg-[#6B1B1B] rounded-lg p-2">
                         <img 
@@ -207,7 +170,7 @@ const WeddingCardAutoScroll = () => {
                     </div>
                 </div>
 
-                {/* Section 5: Bibaho (Wedding) */}
+                {/* Section 4: Bibaho (Wedding) */}
                 <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
                     <div className="flex justify-center mb-2 max-w-sm w-full">
                         <img 
@@ -245,6 +208,43 @@ const WeddingCardAutoScroll = () => {
                         <Topor className="w-10 h-16 animate-float" />
                         <img src={goldenButterfly} alt="" className="w-12 h-12 opacity-80 animate-float" style={{ animationDelay: '0.3s' }} />
                         <Topor className="w-10 h-16 animate-float" style={{ animationDelay: '0.5s', transform: 'scaleX(-1)' }} />
+                    </div>
+                </div>
+
+                {/* Section 5: English Invitation */}
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="bg-black/20 backdrop-blur-sm rounded-xl px-6 py-6 border-2 border-[#FFD700]/40 text-center max-w-sm">
+                        <p className="text-[#FFEAA7] text-sm mb-4 italic">
+                            Shree Shree Prajapataye Namah
+                        </p>
+
+                        <p className="text-[#FFEAA7] text-sm leading-relaxed mb-4">
+                            Mr. Sudarson Pathak and Mrs. Subarna Pathak cordially request
+                            the pleasure of your gracious presence and blessing on the auspicious occasion of the wedding of their beloved daughter,
+                        </p>
+
+                        <div className="my-4">
+                            <h2 className="text-[#FFD700] text-2xl font-bold mb-2">Shatabdi</h2>
+                            <p className="text-[#FFD700] text-lg mb-2">weds</p>
+                            <h2 className="text-[#FFD700] text-2xl font-bold">Sourav</h2>
+                        </div>
+
+                        <div className="flex justify-center gap-6 my-4">
+                            <img src={goldenButterfly} alt="" className="w-10 h-10 opacity-70" />
+                            <img src={goldenButterfly} alt="" className="w-10 h-10 opacity-70" />
+                        </div>
+
+                        <p className="text-[#FFD700] text-sm font-semibold mb-3">
+                            Date of the Event: Friday, 06th February, 2026
+                        </p>
+
+                        <p className="text-[#FFEAA7] text-xs leading-relaxed mb-3">
+                            Address: Kanksa Ganguly Para, Panagarh Bazar, Paschim Bardhaman, 713148
+                        </p>
+
+                        <p className="text-[#FFEAA7]/80 text-xs italic">
+                            Jaganath Pathak (Dada)
+                        </p>
                     </div>
                 </div>
 
