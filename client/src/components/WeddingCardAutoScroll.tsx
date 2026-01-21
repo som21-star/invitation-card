@@ -204,7 +204,7 @@ const WeddingCardAutoScroll = () => {
 
                     <div className="mt-6 flex justify-center gap-6">
                         <Dhunuchi className="w-10 h-16 animate-float" />
-                        <img src={mangalKalash} alt="" className="w-10 h-16 animate-float" style={{ animationDelay: '0.3s', mixBlendMode: 'multiply' }} />
+                        <img src={kalashDecor} alt="" className="w-10 h-16 animate-float" style={{ animationDelay: '0.3s' }} />
                         <Dhunuchi className="w-10 h-16 animate-float" style={{ animationDelay: '0.5s' }} />
                     </div>
                 </div>
@@ -264,7 +264,7 @@ const WeddingCardAutoScroll = () => {
 
                     <div className="flex justify-center gap-4 mb-4">
                         <BetelLeaf className="w-8 h-12 animate-sway" />
-                        <img src={mangalKalash} alt="" className="w-8 h-14 animate-sway" style={{ animationDelay: '0.2s', mixBlendMode: 'multiply' }} />
+                        <img src={kalashDecor} alt="" className="w-8 h-14 animate-sway" style={{ animationDelay: '0.2s' }} />
                         <BetelLeaf className="w-8 h-12 animate-sway" style={{ animationDelay: '0.4s' }} />
                     </div>
 
