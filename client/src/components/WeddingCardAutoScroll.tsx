@@ -75,11 +75,12 @@ const WeddingCardAutoScroll = () => {
                         <p className="font-bengali text-[#FFD700] text-lg drop-shadow-lg">॥ শ্রী শ্রী দুর্গা ॥</p>
                     </div>
 
-                    <div className="relative mb-4">
+                    <div className="relative mb-4 overflow-hidden rounded-t-full rounded-b-lg" style={{ maxHeight: '280px' }}>
                         <img
                             src={weddingCoupleUploaded}
                             alt="Wedding Couple"
-                            className="w-64 h-auto mx-auto rounded-xl shadow-2xl animate-float"
+                            className="w-64 h-auto mx-auto shadow-2xl animate-float"
+                            style={{ marginTop: '-8px' }}
                         />
                     </div>
 
