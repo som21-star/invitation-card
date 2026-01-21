@@ -180,32 +180,30 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 4: Bibaho (Wedding) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-start relative overflow-hidden" style={{ width: `${100 / totalSlides}%` }}>
-                    <img 
-                        src={peacockArch} 
-                        alt="Peacock Arch" 
-                        className="absolute inset-0 w-full h-full object-cover z-0"
-                    />
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-0 left-0 right-0 w-full z-10">
+                        <img src={peacockArch} alt="Peacock Arch" className="w-full h-auto" />
+                    </div>
                     
-                    <div className="relative z-10 flex flex-col items-center justify-center h-full pt-28">
+                    <div className="relative z-20 flex flex-col items-center justify-center mt-16">
                         <img 
                             src={bengaliCouple2} 
                             alt="Bengali Wedding Couple" 
-                            className="w-32 h-auto mb-4 animate-float"
+                            className="w-28 h-auto mb-3 animate-float"
                         />
                         
                         <div className="text-center">
-                            <h3 className="font-bengali-display text-[#FFD700] text-3xl font-bold mb-3 drop-shadow-lg">
+                            <h3 className="font-bengali-display text-[#FFD700] text-3xl font-bold mb-2 drop-shadow-lg">
                                 শুভ বিবাহ
                             </h3>
                             
-                            <p className="font-bengali text-[#FFD700] text-xl font-semibold mb-2 drop-shadow-lg">
+                            <p className="font-bengali text-[#FFD700] text-lg font-semibold mb-1 drop-shadow-lg">
                                 ২৩শে মাঘ, ১৪৩২ সাল
                             </p>
-                            <p className="font-bengali text-[#FFEAA7] text-lg mb-2 drop-shadow-lg">
+                            <p className="font-bengali text-[#FFEAA7] text-base mb-1 drop-shadow-lg">
                                 ৬ই ফেব্রুয়ারি ২০২৬
                             </p>
-                            <p className="font-bengali text-[#FFD700] text-xl font-bold drop-shadow-lg">
+                            <p className="font-bengali text-[#FFD700] text-lg font-bold drop-shadow-lg">
                                 সন্ধ্যা ৭ ঘটিকায়
                             </p>
                         </div>
