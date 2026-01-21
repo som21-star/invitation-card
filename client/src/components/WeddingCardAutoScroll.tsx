@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import bengaliCouple from '@/assets/bengali-couple.png';
-import weddingCoupleUploaded from '@/assets/wedding-couple-uploaded.png';
+import weddingCoupleUploaded from '@assets/Frontpage3_1768970322780.png';
 import marigoldGarland from '@/assets/marigold-garland.png';
 import goldenCorner from '@/assets/golden-corner.png';
 import bengaliElements1 from '@/assets/bengali-elements-1.png';
@@ -79,11 +79,8 @@ const WeddingCardAutoScroll = () => {
                         <img
                             src={weddingCoupleUploaded}
                             alt="Wedding Couple"
-                            className="w-56 h-auto mx-auto rounded-lg shadow-2xl border-4 border-[#FFD700]/50 animate-float"
+                            className="w-64 h-auto mx-auto rounded-xl shadow-2xl animate-float"
                         />
-                        <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                            <Mukut className="w-24 h-16" />
-                        </div>
                     </div>
 
                     <h1 className="font-bengali-display text-[#FFD700] text-4xl font-bold tracking-wide drop-shadow-lg animate-shimmer mb-4">
