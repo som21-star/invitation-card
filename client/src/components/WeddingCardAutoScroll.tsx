@@ -180,16 +180,16 @@ const WeddingCardAutoScroll = () => {
                 </div>
 
                 {/* Section 4: Bibaho (Wedding) */}
-                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-center px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
-                    <div className="absolute top-0 left-0 right-0 w-full z-10">
-                        <img src={peacockArch} alt="Peacock Arch" className="w-full h-auto" />
+                <div className="w-full h-full flex-shrink-0 flex flex-col items-center justify-between px-6 py-8 relative" style={{ width: `${100 / totalSlides}%` }}>
+                    <div className="absolute top-8 left-0 right-0 w-full z-5 flex justify-center">
+                        <img src={peacockArch} alt="Peacock Arch" className="w-full max-w-md h-auto" style={{ maxHeight: '45%' }} />
                     </div>
                     
-                    <div className="relative z-20 flex flex-col items-center justify-center mt-16">
+                    <div className="relative z-10 flex flex-col items-center justify-center flex-1 mt-40">
                         <img 
                             src={bengaliCouple2} 
                             alt="Bengali Wedding Couple" 
-                            className="w-28 h-auto mb-3 animate-float"
+                            className="w-24 h-auto mb-2 animate-float"
                         />
                         
                         <div className="text-center">
@@ -206,6 +206,19 @@ const WeddingCardAutoScroll = () => {
                             <p className="font-bengali text-[#FFD700] text-lg font-bold drop-shadow-lg">
                                 সন্ধ্যা ৭ ঘটিকায়
                             </p>
+                        </div>
+                    </div>
+
+                    <div className="relative z-10 flex flex-col items-center mb-4">
+                        <div className="text-center mb-3">
+                            <p className="font-bengali text-[#FFEAA7] text-sm mb-1">বিবাহ বাসর</p>
+                            <p className="font-bengali text-[#FFD700] text-base font-semibold">নিজ বাসভবন</p>
+                        </div>
+
+                        <div className="flex justify-center gap-6">
+                            <Topor className="w-10 h-16 animate-float" />
+                            <img src={goldenButterfly} alt="" className="w-12 h-12 opacity-80 animate-float" style={{ animationDelay: '0.3s' }} />
+                            <Topor className="w-10 h-16 animate-float" style={{ animationDelay: '0.5s', transform: 'scaleX(-1)' }} />
                         </div>
                     </div>
                 </div>
