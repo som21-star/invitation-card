@@ -1,4 +1,4 @@
-import WeddingCardAutoScroll from '@/components/WeddingCardAutoScroll';
+import WeddingCardAutoScrollGroom from '@/components/WeddingCardAutoScrollGroom';
 import FloatingPetals from '@/components/FloatingPetals';
 import AudioPlayer from '@/components/AudioPlayer';
 
@@ -9,7 +9,7 @@ const Index = () => {
       <FloatingPetals />
 
       {/* Main Wedding Card - Auto Scroll */}
-      <WeddingCardAutoScroll />
+      <WeddingCardAutoScrollGroom />
 
       {/* Audio Player */}
       <AudioPlayer />
